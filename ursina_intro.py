@@ -39,9 +39,9 @@ app = Ursina()
 cube = Entity(model='quad', color=color.orange, scale = (2,5), position = (5,1))
 
 # quad with texture
-#sans_image = load_texture('Sans.png')
-#sans = Entity(model = 'quad', texture = sans_image)
-#sans = Entity(model = 'quad', texture = 'Sans.png')
+# sans_image = load_texture('Sans.png')
+# sans = Entity(model = 'quad', texture = sans_image)
+# sans = Entity(model = 'quad', texture = 'Sans.png')
 
 # creating a block properly
 test = Test_cube()
