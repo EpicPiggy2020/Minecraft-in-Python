@@ -41,6 +41,8 @@ class Voxel(Button):
             color=color.color(0, 0, random.uniform(0.9, 1)),
             scale=0.5)
 
+# HELLO THERE
+
     def input(self, key):
         if self.hovered:
             if key == 'right mouse down':
